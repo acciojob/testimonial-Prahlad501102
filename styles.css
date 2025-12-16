@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.testimonial-section {
+    background-color: #F5F5F5;
+    padding: 30px;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial-box {
+    background-color: white; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.author {
+    text-align: right;
+    font-style: italic;
+    color: #333;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.testimonial-section > p {
+    text-align: center;
+    color: #aaa;
+    margin-top: 30px;
+    font-size: 12px;
+}
